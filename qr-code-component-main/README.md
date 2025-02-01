@@ -34,7 +34,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-For this project, I learned how to be more familiar with positioning, flexbox properties, and relative units as shown in the code snippet below. I learned that using ``rem`` instead of ``px`` for font size was good practice and decided to implement that in this challenge.
+For this project, I learned how to be more familiar with positioning, flexbox properties, CSS variables, and relative units as shown in the code snippet below. I learned that using ``rem`` instead of ``px`` for font size was good practice and decided to implement that in this challenge.
 
 ```css
 body {
