@@ -10,6 +10,19 @@
   --paragraph-color: #68778d;
 }
 
+.text-preset-1 {
+  font-size: 1.375rem;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.text-preset-2 {
+  font-size: 0.9375rem;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+
 body {
   background: var(--background-color);
   font-family: "Outfit", sans-serif;
@@ -20,16 +33,11 @@ body {
   align-items: center;
 }
 
-header {
-  text-align: center;
-}
-
 .container {
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
   padding: 16px 16px 40px;
-  max-height: 499px;
-  max-width: 320px;
+  max-width: 20rem;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 4.77%);
 }
 
@@ -47,23 +55,17 @@ img {
 h1 {
   text-align: center;
   color: var(--heading-color);
-  font-size: 1.375rem;
-  font-weight: 700;
   margin-bottom: 16px;
-  line-height: 120%;
 }
 
 p {
   text-align: center;
   color: var(--paragraph-color);
-  font-size: 0.9375rem;
-  line-height: 140%;
-  letter-spacing: 0.2px;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  bottom: -200px;
 }
 
 .attribution { 
